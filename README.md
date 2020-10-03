@@ -1,16 +1,23 @@
-# housekeeping
+# Housekeeping App
 
-A new Flutter project.
+## Development
 
-## Getting Started
+### Supported Android Versions
 
-This project is a starting point for a Flutter application.
+- Android 8+
 
-A few resources to get you started if this is your first Flutter project:
+### Adding a splash screen
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Splashscreen from https://www.drawkit.io/illustrations/breakfast-colour
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+$ flutter pub pub run flutter_native_splash:create
+```
+
+After creating the images one needs to add the following lines to the `launch_background.xml`-file.
+
+```xml
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/splash" />
+    </item>
+```

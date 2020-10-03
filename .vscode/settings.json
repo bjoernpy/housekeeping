@@ -1,4 +1,11 @@
 {
-    "dart.lineLength": 120,
-    "dart.previewFlutterUiGuides": true
+  "editor.formatOnSave": true,
+
+  "dart.lineLength": 120,
+  "dart.previewFlutterUiGuides": true,
+
+  "[dart]": {
+    "editor.rulers": [],
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  }
 }

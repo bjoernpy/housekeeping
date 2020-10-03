@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "67552491855",
+    "firebase_url": "https://housekeeping-app-bjoernpy.firebaseio.com",
+    "project_id": "housekeeping-app-bjoernpy",
+    "storage_bucket": "housekeeping-app-bjoernpy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67552491855:android:5293546c9714433a5aed3a",
+        "android_client_info": {
+          "package_name": "de.bjoernpy.housekeeping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67552491855-kipkavbnpm8a2r6jfo6e2tgpqujm5m1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlWFLzjf4TBk5PHSomt8TC6GXwKpq5BLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67552491855-kipkavbnpm8a2r6jfo6e2tgpqujm5m1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
