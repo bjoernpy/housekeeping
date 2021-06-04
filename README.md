@@ -1,23 +1,3 @@
 # Housekeeping App
 
-## Development
-
-### Supported Android Versions
-
-- Android 8+
-
-### Adding a splash screen
-
-Splashscreen from https://www.drawkit.io/illustrations/breakfast-colour
-
-```bash
-$ flutter pub pub run flutter_native_splash:create
-```
-
-After creating the images one needs to add the following lines to the `launch_background.xml`-file.
-
-```xml
-    <item>
-        <bitmap android:gravity="center" android:src="@drawable/splash" />
-    </item>
-```
+This is an abandon project of a grocery list and other housekeeping features with groups and shared lists. I learned how to integrate Firebase and its feartures like authentication and the Firestore in a flutter project and had some fun doing so. But since there is an app like this on the market I decided to end this project.
